@@ -24,6 +24,11 @@
 1. Clone the repo
 2. Create a virtual environment
 3. Install dependencies
+
+```
+npm install
+```
+
 4. Create a .env file and add the following:
 
 ```
@@ -38,16 +43,20 @@ DB_PORT=your_db_port
 
 5. Run migrations
 6. Run the server
-7. Run the frontend
-8. Create a superuser
-9. Login to the admin panel and create a new group called 'staff'
-10. Add the 'staff' group to the 'Staff' and 'Admin' permissions
-11. Create a new user and add them to the 'staff' group
-12. Login to the app with the new user
-13. Create a new user and add them to the 'admin' group
-14. Login to the app with the new user
-15. Create a new user and do not add them to any groups
-16. Login to the app with the new user
+
+```
+npm start
+```
+
+7. Create a superuser
+8. Login to the admin panel and create a new group called 'staff'
+9. Add the 'staff' group to the 'Staff' and 'Admin' permissions
+10. Create a new user and add them to the 'staff' group
+11. Login to the app with the new user
+12. Create a new user and add them to the 'admin' group
+13. Login to the app with the new user
+14. Create a new user and do not add them to any groups
+15. Login to the app with the new user
 
 #### Author
 
