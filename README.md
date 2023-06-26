@@ -60,7 +60,7 @@ npm start
 
 #### Author
 
-[Kervens Delpe](linkedin.com/in/kervensdelpe/)
+[Kervens Delpe](https://www.linkedin.com/in/kervensdelpe/)
 
 #### Acknowledgements
 
