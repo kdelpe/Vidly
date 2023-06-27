@@ -1,6 +1,6 @@
 ## Vidly
 
-### A back-end video rental app built with Node and JavaScript
+### A back-end video rental app built with Node and JavaScript (under development)
 
 #### Features
 
@@ -47,16 +47,6 @@ DB_PORT=your_db_port
 ```
 npm start
 ```
-
-7. Create a superuser
-8. Login to the admin panel and create a new group called 'staff'
-9. Add the 'staff' group to the 'Staff' and 'Admin' permissions
-10. Create a new user and add them to the 'staff' group
-11. Login to the app with the new user
-12. Create a new user and add them to the 'admin' group
-13. Login to the app with the new user
-14. Create a new user and do not add them to any groups
-15. Login to the app with the new user
 
 #### Author
 
