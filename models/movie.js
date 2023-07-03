@@ -12,11 +12,8 @@ const Genre = mongoose.model(
       maxlength: 255,
     },
     genre: {
-      type: String,
+      type: genreSchema,
       required: true,
-      trim: true,
-      minlength: 5,
-      maxlength: 255,
     },
     name: {
       type: String,
@@ -41,7 +38,10 @@ const Genre = mongoose.model(
 
 function validateMovie(movie) {
   const schema = {
-    name: Joi.string().min(3).required(),
+    title: Joi.string().min(5).max(50).required(),
+    genreId: Joi.string().required(),
+    numberInStock: Joi.number().min(0).required(),
+    dailyRentalRate: Joi.number().min(0).required(),
   };
 
   return Joi.validate(movie, schema);
