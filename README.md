@@ -4,12 +4,23 @@
 
 #### Features
 
+- Genres API
+- Customers API
+- Movies API
+- Rentals API
+- Users API
+
 - User registration
-- User login
-- User logout
-- User profile
-- User password reset
-- User password change
+- User Authentication
+- User Authorization
+- Password reset
+
+- Unit and integration tests
+- Error handling
+- Logging
+- Security
+- Caching
+- Deployment
 
 #### Technologies
 
