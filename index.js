@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const genres = require("./routes/genres");
+const customers = require("./routes/customers");
 const express = require("express");
 const app = express();
 
@@ -14,5 +15,6 @@ mongoose
 
 app.use(express.json());
 app.use("/api/genres", genres);
+app.use("/api/customers", customers);
 
 app.listen(4000, () => console.log("Listening on port 4000..."));
