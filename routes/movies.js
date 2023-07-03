@@ -41,11 +41,9 @@ router.post("/", async (req, res) => {
 
 // PUT an updated movie
 router.put("/:id", async (req, res) => {
-  // Validate the movie
   const { error } = validate(req.body);
   if (error) return res.status(404).send(error.details[0].message);
 
-  // Find the movie
   const movie = await Movie.findByIdAndUpdate(
     req.params.id,
     {
@@ -57,22 +55,17 @@ router.put("/:id", async (req, res) => {
     { new: true }
   );
 
-  // If not found, return 404
   if (!movie) return res.status(404).send("Movie not found.");
 
-  // Return the updated movie
   res.send(movie);
 });
 
 // DELETE a movie
 router.delete("/:id", async (req, res) => {
-  // Find the movie
   const movie = await Movie.findByIdAndRemove(req.params.id);
 
-  // If not found, return 404
   if (!movie) return res.status(404).send("Movie not found.");
 
-  // Return the deleted movie
   res.send(movie);
 });
 
