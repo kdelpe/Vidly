@@ -2,7 +2,7 @@
 
 ### A back-end video rental app built with Node and JavaScript (under development)
 
-#### Features
+### Features
 
 - Genres API
 - Customers API
@@ -22,7 +22,7 @@
 - Caching
 - Deployment
 
-#### Technologies
+### Technologies
 
 - Node
 - Express.js
@@ -30,7 +30,7 @@
 - MongoDB
 - Jest
 
-#### Getting Started
+### Getting Started
 
 1. Clone the repo
 2. Create a virtual environment
