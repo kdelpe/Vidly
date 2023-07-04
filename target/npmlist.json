@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"vidly","dependencies":{"express":{"version":"4.18.2"},"joi":{"version":"13.1.0"},"mongoose":{"version":"7.3.1"},"nodemon":{"version":"2.0.22"}}}
