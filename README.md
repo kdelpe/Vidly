@@ -1,6 +1,6 @@
 ## Vidly
 
-### A back-end video rental app built with Node and JavaScript (under development)
+### A back-end video rental app built to fully grap the concepts of backend development (under development)
 
 ### Learning Objectives
 
@@ -20,21 +20,31 @@
 
 ---
 
-- Node.js, Express.js, JavaScript, MongoDB, Jest, Mongoose, Winston, Helmet, Joi, bcrypt, jsonwebtoken, Redis, Heroku
+- Node.js, Express.js, JavaScript, MongoDB, Jest, Mongoose, Postman, Winston, Helmet, Joi, bcrypt, jsonwebtoken, Redis, Heroku
 
 ### Getting Started
 
 ---
 
 1. Clone the repo
-2. Create a virtual environment
+
+   ```
+   git clone
+   ```
+
+2. Change directory to the project
+
+   ```
+   cd vidly
+   ```
+
 3. Install dependencies
 
 ```
 npm install
 ```
 
-4. Create a .env file and add the following:
+4. Create a `.env` file and add the following:
 
 ```
 SECRET_KEY=your_secret_key
