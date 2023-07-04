@@ -44,23 +44,52 @@ A back-end video rental app built to fully grap the concepts of backend developm
    npm install
    ```
 
-4. Create a `.env` file and add the following:
+4. Copy over the sample `.env` file:
 
    ```
-   SECRET_KEY=your_secret_key
-   DEBUG=True
-   DB_NAME=your_db_name
-   DB_USER=your_db_user
-   DB_PASSWORD=your_db_password
-   DB_HOST=your_db_host
-   DB_PORT=your_db_port
+    cp -nv .env.sample .env
    ```
 
-5. Run the server
+5. Run the server with NPM:
 
    ```
    npm start
    ```
+
+6. Open the browser and navigate to:
+
+   ```
+   http://localhost:4000/api/customers
+   http://localhost:4000/api/movies
+   http://localhost:4000/api/rentals
+   http://localhost:4000/api/genres
+   ```
+
+### Testing
+
+---
+
+1. Run the tests
+
+   ```
+    npm test
+   ```
+
+### Environment Variables
+
+---
+
+| Variable Name              | Description |
+| -------------------------- | ----------- |
+| SECRET_KEY=your_secret_key |             |
+| DEBUG=True                 |             |
+| DB_NAME=your_db_name       |             |
+| DB_USER=your_db_user       |             |
+| DB_NAME=your_db_password   |             |
+| DB_HOST=your_DB_host       |             |
+| DB_PORT=your_DB_port       |             |
+
+---
 
 ### Features
 
@@ -83,11 +112,14 @@ Authentication and Authorization
 - [ ] User Authentication
 - [ ] User Authorization
 - [ ] Password reset
+- [ ] User logout
 
 Testing
 
 - [ ] Unit tests: Jest
 - [ ] Integration tests: Supertest
+- [x] API testing: Postman
+- [ ] Test coverage: Jest
 
 Error handling
 
@@ -110,7 +142,7 @@ Caching
 
 Deployment
 
-- [ ] Heroku: Cloud platform
+- [ ] Heroku: Cloud platform for hosting the project
 
 #### Author
 
