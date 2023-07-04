@@ -51,10 +51,10 @@ npm start
 
 APIs with CRUD operations:
 
-- [ ] Customers API
-- [ ] Movies API
-- [ ] Rentals API
-- [ ] Users API
+- [x] Customers API
+- [x] Movies API
+- [x] Rentals API
+- [x] Genres API
 
 Authentication and Authorization
 
@@ -65,7 +65,7 @@ Authentication and Authorization
 
 Database
 
-- [ ] MongoDB: NoSQL database
+- [x] MongoDB: NoSQL database
 
 Testing
 
@@ -83,7 +83,7 @@ Logging
 Security
 
 - [ ] Helmet: Secure HTTP headers returned by the API
-- [ ] Joi: Data validation
+- [x] Joi: Data validation
 - [ ] bcrypt: Password hashing
 - [ ] jsonwebtoken: Authentication and Authorization
 
