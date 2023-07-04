@@ -51,50 +51,49 @@ npm start
 
 APIs with CRUD operations:
 
-- Customers API
-- Movies API
-- Rentals API
-- Users API
+- [ ] Customers API
+- [ ] Movies API
+- [ ] Rentals API
+- [ ] Users API
 
 Authentication and Authorization
 
-- User registration
-- User Authentication
-- User Authorization
-- Password reset
+- [ ] User registration
+- [ ] User Authentication
+- [ ] User Authorization
+- [ ] Password reset
 
-- Database
+Database
 
-  - MongoDB
-  - Mongoose
+- [ ] MongoDB: NoSQL database
 
-- Testing
+Testing
 
-  - Unit tests
-  - Integration tests
+- [ ] Unit tests: Jest
+- [ ] Integration tests: Supertest
 
-- Error handling
+Error handling
 
-  - Custom error middleware
+- [ ] Custom error middleware: Express
 
-- Logging
+Logging
 
-  - Winston
+- [ ] Winston: Logging library
 
-- Security
+Security
 
-  - Helmet
-  - Joi
-  - bcrypt
-  - jsonwebtoken
+- [ ] Helmet: Secure HTTP headers returned by the API
+- [ ] Joi: Data validation
+- [ ] bcrypt: Password hashing
+- [ ] jsonwebtoken: Authentication and Authorization
 
-- Caching
+Caching
 
-  - Redis
+- [ ] Redis: In-memory data store
 
-- Deployment
+Deployment
 
-  - Heroku
+- [ ] Heroku: Cloud platform
 
 #### Author
 
