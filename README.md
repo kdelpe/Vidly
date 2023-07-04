@@ -29,13 +29,13 @@
 1. Clone the repo
 
    ```
-   git clone
+   git clone https://github.com/kdelpe/Vidly.git
    ```
 
 2. Change directory to the project
 
    ```
-   cd vidly
+   cd `{project directory name}`
    ```
 
 3. Install dependencies
