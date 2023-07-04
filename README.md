@@ -4,6 +4,8 @@
 
 ### Learning Objectives
 
+---
+
 - APIs with CRUD operations
 - Authentication and Authorization
 - Database
@@ -16,9 +18,13 @@
 
 ### Technologies
 
+---
+
 - Node.js, Express.js, JavaScript, MongoDB, Jest, Mongoose, Winston, Helmet, Joi, bcrypt, jsonwebtoken, Redis, Heroku
 
 ### Getting Started
+
+---
 
 1. Clone the repo
 2. Create a virtual environment
@@ -40,14 +46,15 @@ DB_HOST=your_db_host
 DB_PORT=your_db_port
 ```
 
-5. Run migrations
-6. Run the server
+5. Run the server
 
 ```
 npm start
 ```
 
 ### Features
+
+---
 
 APIs with CRUD operations:
 
@@ -56,16 +63,16 @@ APIs with CRUD operations:
 - [x] Rentals API
 - [x] Genres API
 
+Database
+
+- [x] MongoDB: NoSQL database
+
 Authentication and Authorization
 
 - [ ] User registration
 - [ ] User Authentication
 - [ ] User Authorization
 - [ ] Password reset
-
-Database
-
-- [x] MongoDB: NoSQL database
 
 Testing
 
@@ -97,8 +104,12 @@ Deployment
 
 #### Author
 
+---
+
 [Kervens Delpe](https://www.linkedin.com/in/kervensdelpe/)
 
 #### Acknowledgements
+
+---
 
 [Code With Moshe](https://codewithmosh.com/)
