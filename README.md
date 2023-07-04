@@ -1,6 +1,6 @@
 ## Vidly
 
-### A back-end video rental app built to fully grap the concepts of backend development (under development)
+A back-end video rental app built to fully grap the concepts of backend development (under development)
 
 ### Learning Objectives
 
