@@ -2,20 +2,12 @@
 
 ### A back-end video rental app built with Node and JavaScript (under development)
 
-### Features
+### Learning Objectives
 
-- Genres API
-- Customers API
-- Movies API
-- Rentals API
-- Users API
-
-- User registration
-- User Authentication
-- User Authorization
-- Password reset
-
-- Unit and integration tests
+- APIs with CRUD operations
+- Authentication and Authorization
+- Database
+- Testing
 - Error handling
 - Logging
 - Security
@@ -24,11 +16,7 @@
 
 ### Technologies
 
-- Node
-- Express.js
-- JavaScript
-- MongoDB
-- Jest
+- Node.js, Express.js, JavaScript, MongoDB, Jest, Mongoose, Winston, Helmet, Joi, bcrypt, jsonwebtoken, Redis, Heroku
 
 ### Getting Started
 
@@ -58,6 +46,55 @@ DB_PORT=your_db_port
 ```
 npm start
 ```
+
+### Features
+
+APIs with CRUD operations:
+
+- Customers API
+- Movies API
+- Rentals API
+- Users API
+
+Authentication and Authorization
+
+- User registration
+- User Authentication
+- User Authorization
+- Password reset
+
+- Database
+
+  - MongoDB
+  - Mongoose
+
+- Testing
+
+  - Unit tests
+  - Integration tests
+
+- Error handling
+
+  - Custom error middleware
+
+- Logging
+
+  - Winston
+
+- Security
+
+  - Helmet
+  - Joi
+  - bcrypt
+  - jsonwebtoken
+
+- Caching
+
+  - Redis
+
+- Deployment
+
+  - Heroku
 
 #### Author
 
