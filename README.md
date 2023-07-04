@@ -40,27 +40,27 @@ A back-end video rental app built to fully grap the concepts of backend developm
 
 3. Install dependencies
 
-```
-npm install
-```
+   ```
+   npm install
+   ```
 
 4. Create a `.env` file and add the following:
 
-```
-SECRET_KEY=your_secret_key
-DEBUG=True
-DB_NAME=your_db_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
-DB_HOST=your_db_host
-DB_PORT=your_db_port
-```
+   ```
+   SECRET_KEY=your_secret_key
+   DEBUG=True
+   DB_NAME=your_db_name
+   DB_USER=your_db_user
+   DB_PASSWORD=your_db_password
+   DB_HOST=your_db_host
+   DB_PORT=your_db_port
+   ```
 
 5. Run the server
 
-```
-npm start
-```
+   ```
+   npm start
+   ```
 
 ### Features
 
