@@ -69,11 +69,11 @@ A back-end video rental app built to fully grap the concepts of backend developm
 
 ---
 
-1. Run the tests
+Run the tests
 
-   ```
-    npm test
-   ```
+```
+ npm test
+```
 
 ### Environment Variables
 
